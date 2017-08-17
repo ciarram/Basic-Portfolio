@@ -1,8 +1,58 @@
+*{
+    wide: 960px;
+
+}
 h1{
     background-color: #4aaaa5;
     color: white;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
     width: 15%;
     padding: 20px;
     text-align: center;
-    margin-left: 100px;
+    position: relative;
+    left: 100px;
+    top: 10px;
+}
+.top_tab{
+    float: right;
+}
+h2{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 24px;
+    color: #4aaaa5;
+    padding: 20px;
+    position: relative;
+    left: 150px;
+}
+.bio{
+    color: #777777;
+    background-color: #ffffff;
+    border-color: #dddddd;
+    width: 650px;
+}
+h3{
+    background-color: #ffffff;
+    border-color: #cccccc;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 20px;
+    color: #4aaaa5;
+    float: right;
+    bottom: 15px;
+}
+footer{
+    background-color: #666666;
+    color: grey;
+    position: relative;
+    left: 5px;
+    right: 5px;
+    padding: 30px;
+}
+p{
+    text-align: center;
+}
+.profiles{
+    width: 270px;
 }
