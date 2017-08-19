@@ -5,21 +5,33 @@ body{
     width: 960px;
     background-image: url("../images/concrete_seamless.png");
 }
+header{
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    margin: 0 0 30px;
+    overflow: auto;
+    color: #fff;
+    background: #fff;
+    border-bottom: 2px solid #ccc;
+}
 h1{
     background-color: #4aaaa5;
     border-color: #cccccc;
     color: white;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    font-size: 24px;
+    font-size: 30px;
     padding: 20px;
-    text-align: center;
     position: relative;
-    top: 10px;
-    left: 100px;
-    width: 150px;
+    top: 40px;
+    left: 150px;
+    width: 250px;
+    height: 100px;
 }
 nav{
     float: right;
+    margin-bottom: 25px;
+    margin-right: 100px;
 }
 section{
     width: 650px;
@@ -29,12 +41,14 @@ section{
     padding: 10px;
     position: relative;
     left: 30px;
+    top: 150px;
 }
 .photo{
     float: left;
 }
 article{
     clear: right;
+
 }
 h2{
     background-color: #ffffff;
@@ -42,9 +56,9 @@ h2{
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-size: 24px;
     color: #4aaaa5;
+    border-bottom: 2px solid #ccc;
     padding: 20px;
     position: relative;
-    
 }
 aside{
     width: 270px;
