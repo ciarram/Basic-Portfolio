@@ -11,7 +11,7 @@ header{
     position: fixed;
     z-index: 99;
     width: 100%;
-    margin: 0 0 40px;
+    margin: 0 0 30px;
     overflow: auto;
     color: #fff;
     background: #fff;
@@ -25,7 +25,7 @@ h1{
     font-size: 30px;
     padding: 20px;
     position: relative;
-    top: 40px;
+    top: 60px;
     left: 50px;
     width: 250px;
     height: 100px;
@@ -43,7 +43,9 @@ section{
     float: left;
     padding: 30px;
     padding-top: 130px;
-    margin: 0 0 40px;
+    margin-bottom: 40px;
+    margin-left: 30px;
+    margin-top: 40px;
 }
 .photo{
     float: left;
@@ -57,6 +59,10 @@ article{
 p{
     color: grey;
     margin-left: 10px;
+}
+.contact{
+    color: grey;
+    text-align: center;
 }
 h2{
     background-color: #ffffff;
@@ -114,20 +120,45 @@ h3{
     line-height: 22px;
     border-bottom: 2px solid #eee;
 }
-.images{
+.images {
+    position: relative;
     float: left;
-    margin-right: 50px;
-}
-h4{
-    clear: both;
-    background-color: #4aaaa5;
-    color: white;
-}
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+  
+  .images:nth-child(even) {
+    margin-right: 40px;
+  }
+  
+  .images img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  
+  .images h4{
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    background: #4aaaa5;
+    border-bottom: 0;
+  }
 footer{
     clear: both;
-    padding: 30px;
-    
+    position:relative;
+    padding: 30px 0;
+    font-size: 12px;
     background-color: #666666;
-    color: grey;
+    color: #ccc;
     text-align: center;
+    border-top: 8px solid #4aaaa5;
+    width: 960px;
 }
